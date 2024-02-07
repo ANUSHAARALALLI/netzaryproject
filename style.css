@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#section_one{
+    height: 100vh;
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#section_one #footer_side{
+    height: inherit;
+    width: 100px;
+    border: 2px solid aqua;
+   
+}
+
+#section_one #footer_side #contents{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    height: 50%;
+    width: 60px;
+    border: 1px solid magenta;
+}
+
+
+#section_one #footer_side #contents p{
+    width: 91px;
+    height: 52px;
+    top: 551.86px;
+    margin: 5px;
+    transform: rotate(-90deg); 
+}
+
+#section_one #body_part{
+    height: inherit;
+    border:2px solid aqua;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+#section_one #body_part #beat_content{
+    border: 2px solid red;
+    width: 238px;
+    height: 91px;
+    top: 15.51px;
+    left: 87.11px;
+    font-family: Autography;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 91px;
+    letter-spacing: 0em;
+    text-align: left;
+   
+}
+
+#section_one #body_part #head{
+    border:2px solid red;
+    width: 403px;
+    height: 144px;
+    top: 240.08px;
+    left: 80.61px;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#section_one #body_part #para{
+    border:2px solid magenta;
+    width: 451px;
+    height: 90.57px;
+    top: 418.86px;
+    left: 80.61px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+#section_one #body_part #price{
+    border: 2px solid red;
+    width: 231px;
+    height: 42px;
+    top: 602.7px;
+    left: 80.61px;
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+#register{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    border: 2px solid magenta;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:30px;
+
+
+}
+#register #head p{
+    margin: 30px;
+    border: 2px solid gray;
+    width: 127px;
+height: 36px;
+top: 3501.23px;
+left: 656.5px;
+color: gainsboro;
+
+}
+
+#register #sub_head p{
+    border: 2px solid gray;
+    width: 809px;
+    height: 64px;
+    top: 3552.45px;
+    left: 315.5px;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: gainsboro;
+ 
+}
+
+#register #form{
+    border: 2px solid gray;
+    height: 400px;
+    width: 500px;
+}
